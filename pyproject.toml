@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rewind_proc"
+version = "0.1.0"
+description = ""
+authors = ["Antonio Piccolboni <antonio@piccolboni.info>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipdb = "^0.13.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
