@@ -1,4 +1,4 @@
-from rewind_proc import *
+from rew import checkpoint, rewind
 from random import randint
 from tempfile import NamedTemporaryFile
 
