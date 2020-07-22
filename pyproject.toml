@@ -1,15 +1,18 @@
 [tool.poetry]
-name = "rewind_proc"
+name = "rew"
 version = "0.1.0"
 description = ""
 authors = ["Antonio Piccolboni <antonio@piccolboni.info>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+autosig = "^0.10.0"
+loguru = "^0.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 ipdb = "^0.13.3"
+ipykernel = "^5.3.1"
 
 [build-system]
 requires = ["poetry>=0.12"]
