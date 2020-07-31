@@ -8,6 +8,7 @@ authors = ["Antonio Piccolboni <antonio@piccolboni.info>"]
 python = "^3.6"
 autosig = "^0.10.0"
 loguru = "^0.5.1"
+bidict = "^0.19.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
